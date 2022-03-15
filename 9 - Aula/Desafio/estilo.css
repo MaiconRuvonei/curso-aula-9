@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+#titListaClientes {
+    text-align: left;
+    display: none;
+}
+
+.divCEP {
+    display: flex;
+    
+}
+
+.cadastro {
+    width: 50%;
+    display: inline-block;
+    /* box-shadow: 100px 20px 10px 9px rgba(129, 114, 114, 0.3); */
+}
+
+.cadastro input {
+    width: 100%;
+    margin: 4px;
+    padding: 10px;
+    border: solid blue 1px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#btnSalvar{
+    margin:20px 20px;
+    width: 50%;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+#btnSalvar:hover {
+    margin:20px 20px;
+    width: 50%;
+    background-color: rgb(53, 129, 250);
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    width: 25%;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;    
+    background-color: rgb(53, 129, 250);
+    font-size: 15px;
+    color: rgb(25, 25, 48);
+}
+
+fieldset {
+    color: blue;
+    text-align: left;
+    margin-top: 15px;
+}
+
+legend {
+    background: rgb(53, 129, 250);
+    color: white;
+    padding: 5px 20px;
+    border-radius:  10px;
+    margin: auto;
+}
